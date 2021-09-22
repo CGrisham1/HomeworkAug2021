@@ -1,12 +1,11 @@
 h1 {
     background-color: lightgoldenrodyellow
 }
-h2 {
-    background-color: lightgoldenrodyellow
-}
+
 body {
     background-color: gray
 }
+
 .build {
     background-color: lightgoldenrodyellow;
     color: black;
@@ -15,9 +14,20 @@ body {
     padding: 20px;
 }
 
-
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#demo {
+    background-color: goldenrod
+}
+
+.top3 {
+    background-color: black
+}
+
+main :not(.top3) {
+    background-color: lightgoldenrodyellow
 }
