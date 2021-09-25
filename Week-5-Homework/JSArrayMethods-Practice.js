@@ -229,10 +229,24 @@ const data = [
         "bs": "target end-to-end models"
       }
     }
-  ]
+  ];
 
 
   //create and print a list of phone numbers
 
   const numbers =
-  data.forEach(user => console.log(user.phone));
+  data.forEach(id => console.log(id.phone)); //for.each method to execute each item I pass in from the array, with fat arrow syntax!
+
+
+const contact = [];
+
+data.forEach(user => {
+    let website = user.website;
+    let email = user.email;
+    contact.push([website, email]);
+    console.log(website , email);
+});  //.forEach method to execute the items I pass in from the array. I assign the variables with let,  .push to take single lines from the metadata
+
+
+
+
