@@ -237,6 +237,9 @@ const data = [
   const numbers =
   data.forEach(id => console.log(id.phone)); //for.each method to execute each item I pass in from the array, with fat arrow syntax!
 
+  
+  
+  //create and print a list of website and email pairs (pair them in a string, array, or object)
 
 const contact = [];
 
@@ -246,6 +249,7 @@ data.forEach(user => {
     contact.push([website, email]);
     console.log(website , email);
 });  //.forEach method to execute the items I pass in from the array. I assign the variables with let,  .push to take single lines from the metadata
+
 
 
 
