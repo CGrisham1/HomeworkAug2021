@@ -1,4 +1,4 @@
-const FrstArray = [
+const data = [
     {
       "id": 1,
       "name": "Leanne Graham",
@@ -230,3 +230,9 @@ const FrstArray = [
       }
     }
   ]
+
+
+  //create and print a list of phone numbers
+
+  const numbers =
+  data.forEach(user => console.log(user.phone));
