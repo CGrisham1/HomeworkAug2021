@@ -610,3 +610,8 @@ const data = [
 
 
   //then, create a list of title and body pairs
+
+  const tbpairs = data.map(user => 
+  {return [user.title, user.body]}
+);
+console.log(tbpairs);
