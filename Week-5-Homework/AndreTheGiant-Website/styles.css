@@ -16,25 +16,38 @@ html {
   }
   
   div {
-    border: 2px solid burlywood;
+    border: 2px solid ;
     margin: 10px;
   }
   
   #introPic {
-    float: left;
+    float: center;
   }
   
   #bio {
     float: right;
   }
   #bio > li {
-    padding: 4px;
-  }
-
-  #bio {
-      
+    padding: 10px;
+    margin: auto;
   }
 
   #pro {
     width: auto;
+  }
+
+  @media all and (max-width: 500px) {
+    body {
+      color: black;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    img {
+      width: 335px;
+    }
+  }
+
+  #achievements {
+    
   }
