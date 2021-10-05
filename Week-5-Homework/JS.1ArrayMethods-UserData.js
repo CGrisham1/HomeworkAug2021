@@ -239,7 +239,7 @@ const data = [
 
   
   
-  //create and print a list of website and email pairs (pair them in a string, array, or object)
+//   //create and print a list of website and email pairs (pair them in a string, array, or object)
 
 const contact = [];
 
@@ -247,8 +247,10 @@ data.forEach(user => {
     let website = user.website;
     let email = user.email;
     contact.push([website, email]);
-    console.log(website , email);
-});  //.forEach method to execute the items I pass in from the array. I assign the variables with let,  .push to take single lines from the metadata
+
+}); 
+console.log(contact);
+//.forEach method to execute the items I pass in from the array. I assign the variables with let,  .push to take single lines from the metadata
 
 
 

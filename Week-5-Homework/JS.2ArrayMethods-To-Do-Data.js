@@ -1204,13 +1204,13 @@ const data =[
 
   //create a list of user 9's to-dos
 
-const user9todo = data.filter(user => user.userId === 9);
-  console.log(user9todo);
+// const user9todo = data.filter(user => user.userId === 9);
+//   console.log(user9todo);
 
   //then find the number of user 9's incomplete tasks
 
-const incompleteTasks = data.filter(tasks => tasks.completed === false);
-  console.log(incompleteTasks);
+const incompleteTasks = data.filter(tasks => tasks.completed === false && tasks.userId === 9);
+  console.log(incompleteTasks.length);
 
 
 //declare user9todo, use the Method .filter to pull the specific userId

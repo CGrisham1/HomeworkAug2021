@@ -605,13 +605,13 @@ const data = [
   //create a list of user 5's posts
 
   const posts = 
-  data.filter(user => console.log());
-  console.log(posts);
+  data.filter(user => user.userId === 5);
+  // console.log(posts);
 
 
   //then, create a list of title and body pairs
 
-  const tbpairs = data.map(user => 
+  const tbpairs = posts.map(user => 
   {return [user.title, user.body]}
 );
 console.log(tbpairs);
