@@ -7,15 +7,17 @@
 
 
 class drinks{
-    constructor(name){
+    constructor(name,size,brand){
     this.ename = name;
+    this.size = size;
+    this.brand = brand;
     }
 };
 
 class rootbeer extends drinks{
-    constructor(maker){
-        super(maker);
-        this.maker = maker;
+    constructor(name,size,brand, taste){
+        super(name,size,brand);
+        this.taste = taste;
     }
 };
 
