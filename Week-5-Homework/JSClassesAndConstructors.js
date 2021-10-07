@@ -7,23 +7,18 @@
 
 
 class drinks{
-    constructor(type){
-    this.typename = type;
+    constructor(name){
+    this.ename = name;
     }
 };
 
-class name extends drinks{
+class rootbeer extends drinks{
     constructor(maker){
         super(maker);
-        this.typename = name;
+        this.maker = maker;
     }
 };
-class maker extends drinks{
-    constructor(name){
-        super(name);
-        this.typename = name;
-    }
-};
+
 
 
 // Name Milk, Maker Hiland, Type Dairy
